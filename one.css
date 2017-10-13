@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway');
 *{
     padding: 0;
     margin: 0;
@@ -15,11 +16,13 @@ h1{
     font-family: sans-serif;
     font-size: 3.998rem;
     padding:1rem 2rem;
+    font-family: Raleway, Courier, "Courier New", serif;
 }
 h2{
     font-family: sans-serif;
     font-size: 2.827rem;
     padding:1rem 2rem;
+    font-family: Raleway, Courier, "Courier New", serif;
 }
 nav ul{
     padding:1rem 0;
@@ -27,6 +30,7 @@ nav ul{
 nav li{
     font-size: 1.999rem;
     list-style-type: none;
+    font-family: Merriweather, Courier, "Courier New", serif;
 }
 nav li>a{
     display: block;
@@ -40,6 +44,7 @@ nav li>a:active{
     color: #222;
 }
 p{
+    font-family: Merriweather, Courier, "Courier New", serif;
     font-size: 1.414rem;
     padding:0.5rem 2rem;
 }
